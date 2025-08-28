@@ -955,6 +955,11 @@ p {
     }
 }
 
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* Focus Outlines - Brown Theme */
 .btn:focus,
@@ -962,4 +967,11 @@ p {
 .faq-question:focus {
   outline: 2px solid #8B5E3C; /* Mild brown */
   outline-offset: 3px;
+}
+
+/* Make the image responsive */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
