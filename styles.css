@@ -961,6 +961,14 @@ p {
     }
 }
 
+@media (max-width: 768px) {
+    .about-image img {
+        height: auto;
+        max-height: 300px; /* optional: cap height if needed */
+    }
+}
+
+
 /* Focus Outlines - Brown Theme */
 .btn:focus,
 .nav-link:focus,
