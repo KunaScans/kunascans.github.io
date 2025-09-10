@@ -122,7 +122,7 @@ p {
 }
 
 .nav-logo img {
-  height: 40px;
+  height: 30px;
   width: auto;
   display: block;
 }
@@ -140,9 +140,9 @@ p {
 
 /* On smaller screens, stack vertically */
 @media (max-width: 480px) {
-  .nav-logo {
-    flex-direction: column;
-    align-items: flex-start; /* or center, whichever you prefer */
+  .nav-container {
+    max-width: 100%;
+    padding: 0 10px; /* less horizontal padding */
   }
 }
 
