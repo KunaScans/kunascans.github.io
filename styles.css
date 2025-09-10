@@ -115,12 +115,6 @@ p {
     font-size: 0.875rem;
 }
 
-.nav-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .nav-logo img {
   height: 30px;
   width: auto;
@@ -136,14 +130,6 @@ p {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-/* On smaller screens, stack vertically */
-@media (max-width: 480px) {
-  .nav-container {
-    max-width: 100%;
-    padding: 0 10px; /* less horizontal padding */
-  }
 }
 
 
