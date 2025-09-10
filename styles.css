@@ -241,22 +241,10 @@ p {
     transform: translateY(-10px);
 }
 
-.hero-image img {
-  width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: contain;
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-}
-
 @media (max-width: 768px) {
   .hero-content {
     flex-direction: column;
     text-align: center;
-  }
-  .hero-image img {
-    max-height: 250px;
   }
 }
 
@@ -346,8 +334,8 @@ p {
 
 .about-image img {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
