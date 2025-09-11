@@ -237,6 +237,25 @@ p {
     transition: transform 0.3s ease;
 }
 
+.hero-image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Optional: adds spacing around */
+}
+
+.hero-image2 img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px; /* Adjust this value to control size */
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
 .hero-image img:hover {
     transform: translateY(-10px);
 }
@@ -332,13 +351,21 @@ p {
     width: 20px;
 }
 
-.about-image img {
+.about-image {
     width: 100%;
+}
+
+.about-image img {
+    display: block;              /* Make image a block element */
+    margin: 0 auto;              /* This centers block elements horizontally */
+    width: 100%;
+    max-width: 600px;
     height: auto;
     object-fit: contain;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Services Section */
 .services {
